@@ -1,0 +1,20 @@
+Log File of DDS is Successfully Opened
+1. Entering in ddsGL_load() function
+2. dds_load() function call made 
+3. Entering in dds_load() function 
+4. .dds file opened 
+5. magic number reading 
+6. Checking magic number is valid or not 
+7. Getting surface descriptor 
+8. Calculating pixel data size 
+9. Reading pixel data (with mipmaps) 
+10. leaving dds_load() function 
+11. dds_load() function call finished 
+12. Filled members of local texture(filled by dds_load function) into global instance of texture(width,height,mipmaps) 
+13. In DXT1 case filling format and internal format
+14. Generating new texture, Binding texture,Filtering
+15. Filling the format in blocksize by checking it with GL_COMPRESSED_RGBA_S3TC_DXT1_EXT if true then 8 else 16 
+16. Uploading mipmaps to the video memory 
+17. A loop calling glCompresedTexImage2D() which specifies a 2D texture image in compressed format
+18. Calling dds_free() function
+19. Log File of DDS is Successfully closed
